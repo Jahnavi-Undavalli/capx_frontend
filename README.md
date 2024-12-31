@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Frontend - Portfolio Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This folder contains the frontend code for the Portfolio Tracker application. It is built using React.js and Material-UI for a responsive and intuitive UI.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Steps to Run the Frontend Locally
 
-### `npm start`
+```bash
+# 1. Clone the Repository
+git clone https://github.com/Jahnavi-Undavalli/capx_frontend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 2. Install Dependencies
+npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 3. Start the Frontend Development Server
+npm start
+```
+# Set Up Environment Variables
+   **REACT_APP_BACKEND_URL** https://capx-backend-bbv8.onrender.com/api/stocks
 
-### `npm test`
+# Access the Application
+   **Open your browser and go to**:
+      https://capx-frontend-8nfd.vercel.app/
+      
+## Assumptions and Limitations:
+   # 1. Backend Dependency:
+         The frontend relies on the backend to provide API endpoints. Ensure the backend is running or the deployed backend is accessible.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   # 2. Material-UI for Styling:
+         The application uses Material-UI components to deliver a professional, responsive design.
 
-### `npm run build`
+   # 3. Error Handling:
+         If an invalid or incorrect stock ticker is added, the frontend displays the error message returned by the backend.
+## Links :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Deployed Frontend Link:
+https://github.com/Jahnavi-Undavalli/capx_frontend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Deployed Application Link:
+https://capx-frontend-8nfd.vercel.app/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
